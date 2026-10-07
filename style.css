@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: Arial, Helvetica, Sans-serif;
+    color: #202020;
+}
+.navbar{
+    display: flex;
+    padding: 20px 10%;
+    align-items: center;
+    border-bottom: 1px solid rgb(78,78,78);
+    justify-content: space-between;
+    background-color: rgb(81, 66, 165) ;
+}
+.navbar h2 span{
+    color: rgb(223, 200, 246);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #f3cbf5;
+}
+.navbar li a:hover{
+    color: rgb(176,99,248);
+}
+section h2{
+    text-align: center;
+    padding: 20px;
+}
+.para{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.home{
+    background-color: rgb(171, 193, 201);
+    padding: 50px 7%;
+    display: flex;
+    align-items: center;
+    gap:30px
+}
+.sub-title{
+    margin-bottom: 5px;
+}
+.home h1{
+    margin-bottom: 10px;
+}
+.home h3{
+    margin-bottom: 10px;
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(197, 101, 214);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(155,51,252);
+}
+.profile{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+/* about */
+.about h2{
+    text-align: center;
+    padding: 20px;
+}
+.about{
+    background-color:   rgb(226, 230, 231);
+}
+.about-contant{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding: 50px 7%;
+}
+.about img{
+    display: flex;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    object-fit: contain;
+    border: 5px solid rgb(233, 232, 237);
+}
+.about h3{
+    margin-bottom: 5px;
+}
+.about p{
+    margin-bottom: 5px;
+}
+.skills{
+    background-color: rgb(171, 193, 201);
+}
+.skills img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.skills-contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 50px 7%;
+}
+.skills-card{
+    background-color: rgb(162, 159, 176);
+    padding: 15px 5px;
+    text-align: center;
+    border: 1px solid rgb(208,208,208) ;
+}
+.project{
+    background-color:rgb(226, 230, 231) ;
+}
+.project-contact{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 30px;
+    padding: 50px 7%;
+}
+.project img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.project-card{
+    background-color: rgb(172, 234, 186);
+    padding: 20px 15px;
+    text-align: center;
+    border: 1px solid rgb(144, 195, 156);
+    border-radius: 5px;
+}
+.project-card p{
+    margin: 10px 0;
+}
+.project-card span{
+    display: inline-block;
+    background-color: rgb(155,51,252);
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.skills-card:hover,.project-card:hover{
+    border-color: rgb(155,51,252);
+    box-shadow: 0 1px 1px 1px rgb(155,51,252);
+}
+.skills-card img{
+    transition: 1s;
+}
+.project-card:hover h3{
+    color: rgb(155,51,252);
+}
+.contact {
+    background-color: rgb(171, 193, 201);
+}
+#contact-form{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 50px 7%;
+}
+#contact-form input, textarea{
+    background-color: rgb(196, 200, 209);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn1{
+    background-color: #5860fc;
+    color: white;
+}
+footer{
+    background-color:  rgb(81, 66, 165);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
